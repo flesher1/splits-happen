@@ -7,9 +7,9 @@ The run.py file contains minimal code for user entry into the script.
 
 ## How to use:
 Within the project folder:
-run `python run.py` to run the interactive version
-run `python test.py` to run the tests
-Was developed and tested with Python 2.7
+* run `python run.py` to run the interactive version
+* run `python test.py` to run the tests
+* Was developed and tested with Python 2.7
 
 ## Requirement
 Create a program which, given a valid sequence of rolls for one line of American Ten-Pin Bowling, produces the total score for the game. Fork this repository, build your program in the language of your choice, then submit a pull request with your code.
