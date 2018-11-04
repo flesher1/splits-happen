@@ -1,5 +1,16 @@
 # Design and Development Challenge – Bowling Score
 
+## My implementation
+My implementation is done in the calculate_score.py file.
+TDD was used to develop the code, so test.py was created and contains the sample tests provided.
+The run.py file contains minimal code for user entry into the script.
+
+## How to use:
+Within the project folder:
+run `python run.py` to run the interactive version
+run `python test.py` to run the tests
+Was developed and tested with Python 2.7
+
 ## Requirement
 Create a program which, given a valid sequence of rolls for one line of American Ten-Pin Bowling, produces the total score for the game. Fork this repository, build your program in the language of your choice, then submit a pull request with your code.
 
@@ -26,5 +37,3 @@ Use the test cases from the table below to validate the scoring logic of your pr
 | 9-9-9-9-9-9-9-9-9-9-  | 9 + 9 + 9 + 9 + 9 + 9 + 9 + 9 + 9 + 9                                                                                           | 90          |
 | 5/5/5/5/5/5/5/5/5/5/5 | (10+5) + (10+5) + (10+5) + (10+5) + (10+5) + (10+5) + (10+5) + (10+5) + (10+5) + (10+5)                                         | 150         |
 | X7/9-X-88/-6XXX81     | (10+7+3) + (7+3+9) + 9 + (10+0+8) + 8 + (8+2+0) + 6 + (10+10+10) + (10+10+8) + (10+8+1)                                         | 167         |
-
-
